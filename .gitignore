@@ -1,0 +1,26 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Archivos temporales de Jupyter
+.ipynb_checkpoints/
+
+# Configuraciones locales
+.env
+.vscode/
+
+# Datos originales y procesados
+data/raw/*
+data/processed/*
+
+# Modelos entrenados
+modelos/*.pkl
+modelos/*.joblib
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
