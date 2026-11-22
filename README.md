@@ -190,10 +190,12 @@ El modelo complementario RFM con K=3 separó a los 2.801 compradores recurrentes
 ## Estructura del repositorio
 
 ```text
+
+
 proyecto-olist-ml/
 ├── data/
-├── docs/
-├── modelos/
+│   ├── raw/                      # Datos originales de Olist
+│   └── processed/                # Datos preparados para los modelos
 ├── notebooks/
 │   ├── 01_comprension_datos.ipynb
 │   ├── 02_analisis_exploratorio.ipynb
@@ -202,16 +204,30 @@ proyecto-olist-ml/
 │   ├── 05_segmentacion_clientes.ipynb
 │   └── 06_evaluacion_integral.ipynb
 ├── presentacion/
+│   ├── 01_Comprensión de Datos Olist .pdf
+│   ├── 02_Análisis Exploratorio de Retrasos Logísticos — Olist.pdf
+│   ├── 03_Preparación de Datos para Machine Learning — Olist.pdf
+│   ├── 04_modelos_supervisados.ipynb.pdf
+│   ├── 05_Segmentación de Clientes con RFM y K-Means.pdf
+│   ├── 06_evaluacion_integral_presentacion.pdf
+│   ├── Presentacion_Final_Olist_ML.pdf
+│   └── Presentacion_Olist_ML_Final.pdf
 ├── resultados/
+│   ├── comparacion_algoritmos_v3.csv
+│   ├── validacion_temporal_v3.csv
+│   ├── resumen_segmentos_rm.csv
+│   ├── resumen_segmentos_rfm.csv
+│   └── segmentacion_clientes.csv
 ├── src/
 │   ├── __init__.py
 │   └── preparacion.py
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+
+
 ```
 
-Algunas carpetas están reservadas para documentación y entregables complementarios.
 
 ## Limitaciones
 
