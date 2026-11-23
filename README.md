@@ -10,6 +10,15 @@ El trabajo integra análisis exploratorio, preparación de datos, aprendizaje su
 - **Predicción de retrasos:** identificar pedidos con mayor riesgo de entregarse después de la fecha estimada.
 - **Segmentación de clientes:** identificar perfiles de compradores según su recencia, frecuencia y gasto monetario.
 
+## Integrantes del proyecto
+
+- **Juan David Aguilar Páez**
+- **Nicolás Vásquez**
+
+**Universidad:** Universidad de Cundinamarca  
+**Programa:** Ingeniería de Sistemas  
+**Asignatura:** Ciencia de Datos
+
 ## Objetivos
 
 ### Objetivo general
