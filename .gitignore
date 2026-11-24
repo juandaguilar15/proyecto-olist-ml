@@ -13,9 +13,10 @@ __pycache__/
 .env
 .vscode/
 
-# Datos originales y procesados
+# Datos originales de Olist
 data/raw/*
-data/processed/*
+
+# Los datos procesados se incluyen en GitHub
 
 # Modelos entrenados
 modelos/*.pkl
