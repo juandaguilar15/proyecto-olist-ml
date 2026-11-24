@@ -17,9 +17,6 @@ __pycache__/
 # Se incluyen en el repositorio para la entrega académica.
 # Los datos procesados se incluyen en GitHub
 
-# Modelos entrenados
-modelos/*.pkl
-modelos/*.joblib
 
 # Archivos temporales del sistema
 .DS_Store
